@@ -6,7 +6,7 @@ var router = express.Router();
 /* GET students listing. */
 router.get('/', function(req, res, next) {
     var MongoClient = mongodb.MongoClient;
-    var url = 'mongodb://NgoGam:gam23051996@ds119548.mlab.com:19548/blockchain';
+    var url = 'mongodb://taichau:th2010*100%@ds121906.mlab.com:21906/webapi';
     MongoClient.connect(url, function (err, db)
     {
         if(err)
@@ -35,7 +35,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function(req, res,next) {
     var MongoClient = mongodb.MongoClient;
-    var url = 'mongodb://NgoGam:gam23051996@ds119548.mlab.com:19548/blockchain';
+    var url = 'mongodb://taichau:th2010*100%@ds121906.mlab.com:21906/webapi';
     MongoClient.connect(url, function (err, db)
     {
         if(err)
@@ -60,7 +60,7 @@ router.post('/', function(req, res,next) {
 
 router.delete('/:id', function(req, res, next) {
     var MongoClient = mongodb.MongoClient;
-    var url = 'mongodb://NgoGam:gam23051996@ds119548.mlab.com:19548/blockchain';
+    var url = 'mongodb://taichau:th2010*100%@ds121906.mlab.com:21906/webapi';
     MongoClient.connect(url, function (err, db)
     {
 
@@ -86,7 +86,7 @@ router.delete('/:id', function(req, res, next) {
 });
 router.put('/:id', function(req, res, next) {
     var MongoClient = mongodb.MongoClient;
-    var url = 'mongodb://NgoGam:gam23051996@ds119548.mlab.com:19548/blockchain';
+    var url = 'mongodb://taichau:th2010*100%@ds121906.mlab.com:21906/webapi';
     MongoClient.connect(url, function (err, db)
     {
         if(err)
